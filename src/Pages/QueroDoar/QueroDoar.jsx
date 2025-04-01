@@ -5,47 +5,51 @@ import { useState } from 'react';
 
 
 
-const {titulo, setTitulo} = useState("")
 
-const capturaTitulo = (e) => {
-    setTitulo(e.target.value)
-    }
-
-const {categoria, setCategoria} = useState("")
-
-const capturaCategoria = (e) => {
-    setCategoria(e.target.value)
-    }
-
-const {autor, setAutor} = useState("")
-
-const capturaAutor = (e) => {
-    setAutor(e.target.value)
-    }
-
-    
-const {url, setUrl} = useState("")
-
-const capturaUrl = (e) => {
-    setUrl(e.target.value)
-        }
-    
-const enviarDados = async() => {
-    const urlApi = ""
-    const dadosEnviar = {
-    titulo,
-    categoria,
-    autor,
-    imagem_url
-    }
-    const envioApi = await axios.post(urlApi, dadosEnviar)
-
-    alert('Livro Enviado')
-
-    setTitulo("")
-}
 
 export default function QueroDoar(){
+
+
+
+    const {titulo, setTitulo} = useState("")
+
+    const capturaTitulo = (e) => {
+        setTitulo(e.target.value)
+        }
+
+    const {categoria, setCategoria} = useState("")
+
+    const capturaCategoria = (e) => {
+        setCategoria(e.target.value)
+        }
+
+    const {autor, setAutor} = useState("")
+
+    const capturaAutor = (e) => {
+        setAutor(e.target.value)
+        }
+
+        
+    const {imagem_url, setImagem_Url} = useState("")
+
+    const capturaUrl = (e) => {
+        setImagem_Url(e.target.value)
+            }
+        
+    const enviarDados = async() => {
+        const urlApi = ""
+        const dadosEnviar = {
+        titulo,
+        categoria,
+        autor,
+        imagem_url
+        }
+        const envioApi = await axios.post(urlApi, dadosEnviar)
+
+        alert('Livro Enviado')
+
+        setTitulo("")
+    }
 
     return(
         <main className={s.main}>
@@ -68,7 +72,7 @@ export default function QueroDoar(){
                 <input type="text" name='' id='' placeholder='Autor' onChange={capturaAutor} value={autor}/>
             </div>
             <div>
-                <input type="text" name='' id='' placeholder='Link da Imagem' onChange={capturaUrl} value={url}/>
+                <input type="text" name='' id='' placeholder='Link da Imagem' onChange={capturaUrl} value={imagem_url}/>
             </div>
         </section>
         <section className={s.section4}>
