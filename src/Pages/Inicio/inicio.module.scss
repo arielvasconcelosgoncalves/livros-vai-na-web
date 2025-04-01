@@ -1,0 +1,308 @@
+.post {
+    background-image:url(../../assets/inicio.png);
+    background-size: cover;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    h2{
+        width: 20vw; 
+        height: 16vh;
+        margin-left: 8vw; 
+        margin-top: 3vh; 
+        font-family: 'Roboto';
+        font-style: normal; 
+        font-weight: 700; 
+        font-size: 32px; 
+        line-height: 5vh; 
+        color: #FFFFFF;
+    }
+}
+.doar{
+    width: 60vw; 
+    height: 7vh; 
+    margin-left: 7.5vw; 
+    margin-top: 1vh; 
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 40px; 
+    line-height: 35vh; 
+    color: #005695;
+}
+.post2{
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topico1{
+    background-image: url(../../assets/fundo.png);
+    width: 15vw; 
+    height: 34vh; 
+    background: rgba(1, 87, 148, 0.3); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 22px; 
+    line-height: 3.5vh; 
+    text-align: center; 
+    color: #000000;
+}
+.topico2{
+    background-image: url(../../assets/fundo.png);
+    width: 15vw; 
+    height: 34vh; 
+    background: rgba(1, 87, 148, 0.3); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 22px; 
+    line-height: 3.5vh; 
+    text-align: center; 
+    color: #000000;
+}
+.topico3{
+    background-image: url(../../assets/fundo.png);
+    width: 15vw; 
+    height: 34vh; 
+    background: rgba(1, 87, 148, 0.3); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 22px; 
+    line-height: 3.5vh; 
+    text-align: center; 
+    color: #000000;
+}
+.topico4{
+    background-image: url(../../assets/fundo.png);
+    width: 15vw; 
+    height: 34vh; 
+    background: rgba(1, 87, 148, 0.3); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 22px; 
+    line-height: 3.5vh; 
+    text-align: center; 
+    color: #000000;
+}
+@media (max-width:1325px){
+    .post2{
+        height: 77vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .topico1{
+        background-image: url(../../assets/fundo.png);
+        width: 20vw; 
+        height: 37vh; 
+        background: rgba(1, 87, 148, 0.3); 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 22px; 
+        line-height: 3.5vh; 
+        text-align: center; 
+        color: #000000;
+    }
+    .topico2{
+        background-image: url(../../assets/fundo.png);
+        width: 20vw; 
+        height: 37vh; 
+        background: rgba(1, 87, 148, 0.3); 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 22px; 
+        line-height: 3.5vh; 
+        text-align: center; 
+        color: #000000;
+    }
+    .topico3{
+        background-image: url(../../assets/fundo.png);
+        width: 20vw; 
+        height: 37vh; 
+        background: rgba(1, 87, 148, 0.3); 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 22px; 
+        line-height: 3.5vh; 
+        text-align: center; 
+        color: #000000;
+    }
+    .topico4{
+        background-image: url(../../assets/fundo.png);
+        width: 20vw; 
+        height: 37vh; 
+        background: rgba(1, 87, 148, 0.3); 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 22px; 
+        line-height: 3.5vh; 
+        text-align: center; 
+        color: #000000;
+    }
+
+}
+@media (max-width:950px){
+    .post {
+        background-image:url(../../assets/inicio.png);
+        background-size: cover;
+        height: 35vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            width: 78vw; 
+            height: 16vh;
+            text-align: center;
+            margin-left: 0vw; 
+            margin-top: 0vh; 
+            font-family: 'Roboto';
+            font-style: normal; 
+            font-weight: 700; 
+            font-size: 25px; 
+            line-height: 5vh; 
+            color: #FFFFFF;
+        }
+    }
+    .doar{
+        width: 75vw; 
+        height: 7vh; 
+        margin-top: -13vh;
+        margin-left: 10vw;  
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 500; 
+        font-size: 33px; 
+        line-height: 35vh; 
+        color: #005695;
+    }
+    .post2{
+        height: 160vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        //justify-content: space-evenly;
+    }
+    .topico1{
+        background-image: url(../../assets/fundo.png);
+        width: 60vw; 
+        height: 30vh;
+        margin-top: 15vh;
+        background: rgba(1, 87, 148, 0.3); 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 22px; 
+        line-height: 3.5vh; 
+        text-align: center; 
+        color: #000000;
+    }
+    .topico2{
+        background-image: url(../../assets/fundo.png);
+        width: 60vw; 
+        height: 30vh;
+        background: rgba(1, 87, 148, 0.3); 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 22px; 
+        line-height: 3.5vh; 
+        text-align: center; 
+        color: #000000;
+    }
+    .topico3{
+        background-image: url(../../assets/fundo.png);
+        width: 60vw; 
+        height: 30vh; 
+        background: rgba(1, 87, 148, 0.3); 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 22px; 
+        line-height: 3.5vh; 
+        text-align: center; 
+        color: #000000;
+    }
+    .topico4{
+        background-image: url(../../assets/fundo.png);
+        width: 60vw; 
+        height: 30vh; 
+        margin-bottom: 15vh;
+        background: rgba(1, 87, 148, 0.3); 
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 22px; 
+        line-height: 3.5vh; 
+        text-align: center; 
+        color: #000000;
+    }
+}

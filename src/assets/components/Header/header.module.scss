@@ -1,0 +1,149 @@
+.header {
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+}
+  
+.logoHeader {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 18%;
+    }
+    h1 {
+      font-size: 30px;
+      color: white;
+    }
+}
+.navHeader {
+    width: 25%;
+    margin-right: 1%;
+  
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+  
+    .link {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+}
+  
+.barraDeBusca {
+    border: solid #fff;
+    border-radius: 20px;
+    margin-right: 5%;
+    width: 20%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  input {
+      background-color: transparent;
+      border: none;
+      width: 60%;
+      height: 5vh;
+      border: none;
+      color: white;
+      font-size: 20px;
+  
+      &::placeholder {
+        color: #fff;
+        font-size: 20px;
+    }
+  }
+  
+  button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+  }
+}
+@media (max-width:1000px) {
+    .logoHeader {
+        display: flex;
+        width: 32%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+      img {
+          width: 20%;
+      }
+      h1 {
+          font-size: 30px;
+          color: white;
+      }
+    }
+    .navHeader {
+        width: 40%;
+      
+      ul {
+          display: flex;
+          justify-content: space-around;
+          list-style: none;
+      }
+      
+      .link {
+          color: #fff;
+          font-size: 20px;
+          text-decoration: none;
+      }
+    }
+
+    
+}
+@media (max-width:750px){
+  .header {
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+  }
+  .logoHeader {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5%;
+    img {
+      width: 18%;
+    }
+    h1 {
+      font-size: 25px;
+      color: white;
+      width: 60vw;
+      text-align: center;
+    }
+  }
+  .navHeader {
+    width: 80%;
+    margin-bottom: 3%;
+  
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+  
+    .link {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+  .barraDeBusca {
+      display: none;
+    }
+}
+  
