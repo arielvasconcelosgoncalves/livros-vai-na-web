@@ -11,44 +11,48 @@ export default function QueroDoar(){
 
 
 
-    const {titulo, setTitulo} = useState("")
+    const [titulo, setTitulo] = useState("")
 
     const capturaTitulo = (e) => {
         setTitulo(e.target.value)
         }
 
-    const {categoria, setCategoria} = useState("")
+    const [categoria, setCategoria] = useState("")
 
     const capturaCategoria = (e) => {
         setCategoria(e.target.value)
         }
 
-    const {autor, setAutor} = useState("")
+    const [autor, setAutor] = useState("")
 
     const capturaAutor = (e) => {
         setAutor(e.target.value)
         }
 
         
-    const {imagem_url, setImagem_Url} = useState("")
+    const [imagem_url, setImagem_Url] = useState("")
 
     const capturaUrl = (e) => {
         setImagem_Url(e.target.value)
             }
         
     const enviarDados = async() => {
-        const urlApi = "https://api-livros-10u1.onrender.com"
+        const urlApi = "https://api-livros-10u1.onrender.com/doar"
         const dadosEnviar = {
         titulo,
         categoria,
         autor,
         imagem_url
         }
-        const envioApi = await axios.post(urlApi, dadosEnviar)
+    
+        await axios.post(urlApi, dadosEnviar)
 
-        alert('Livro Enviado')
+        alert("Livro Enviado!")
 
         setTitulo("")
+        setCategoria("")
+        setAutor("")
+        setImagem_url("")
     }
 
     return(
@@ -56,7 +60,7 @@ export default function QueroDoar(){
         <section className={s.section1}>
             <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
         </section>
-        <form action="" className={s.section2} onSubmit={(e)=> e.preventDefault()}>
+        <form action="" className={s.section2}>
         <section className={s.sectionimg}>
                 <img src={livro} alt="" />
                 <h1>Informações do Livro</h1>
@@ -76,7 +80,7 @@ export default function QueroDoar(){
             </div>
         </section>
         <section className={s.section4}>
-            <button type='Submit' onClick={enviarDados}>Doar</button>
+            <input type='Submit' value='Doar' onClick={enviarDados} />
         </section>
         </form>
         </main>
