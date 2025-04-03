@@ -52,7 +52,7 @@ export default function QueroDoar(){
         setTitulo("")
         setCategoria("")
         setAutor("")
-        setImagem_url("")
+        setImagem_Url("")
     }
 
     return(
@@ -60,7 +60,7 @@ export default function QueroDoar(){
         <section className={s.section1}>
             <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
         </section>
-        <form action="" className={s.section2}>
+        <form onSubmit={(e)=> e.preventDefault()} className={s.section2}>
         <section className={s.sectionimg}>
                 <img src={livro} alt="" />
                 <h1>Informações do Livro</h1>
