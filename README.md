@@ -48,12 +48,14 @@ livros-vai-na-web/
 ├── package.json             # Dependências do projeto
 ├── vite.config.js           # Configuração do Vite
 └── README.md                # Documentação do projeto
+```
 
 ![Imagem da Interface](caminho/da/imagem.jpg)
 
+
 ## 📌 Aprendizados
 
-# Durante o desenvolvimento deste projeto, foram trabalhados conceitos importantes de:
+### Durante o desenvolvimento deste projeto, foram trabalhados conceitos importantes de:
 
 - Componentização com React.
 - Organização de páginas com React Router (se aplicado).
