@@ -49,9 +49,11 @@ livros-vai-na-web/
 ├── vite.config.js           # Configuração do Vite
 └── README.md                # Documentação do projeto
 ```
+---
 
 ![Imagem da Interface](caminho/da/imagem.jpg)
 
+---
 
 ## 📌 Aprendizados
 
@@ -62,5 +64,7 @@ livros-vai-na-web/
 - Modularização de estilos com SCSS.
 - Estruturação de projetos com Vite.
 - Boas práticas de responsividade e acessibilidade
+
+---
 
 👩‍💻 Desenvolvido por Ariel Vasconcelos para conclusão do curso de Desenvolvedor Full-Stack do Vai na Web.
