@@ -50,8 +50,8 @@ livros-vai-na-web/
 └── README.md                # Documentação do projeto
 ```
 ---
-
-![Imagem da Interface](caminho/da/imagem.jpg)
+## 🌐 Acesse o site: [Livros Vai na Web](https://livros-vai-na-web-ariel.netlify.app/)
+![Home da Página](livros_vai_na_web.jpg)
 
 ---
 
