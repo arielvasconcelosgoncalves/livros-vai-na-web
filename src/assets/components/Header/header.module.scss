@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 15vh;
+    min-height: 15vh;
+    height: auto;
     width: 100vw;
 }
   
@@ -51,7 +52,8 @@
       background-color: transparent;
       border: none;
       width: 60%;
-      height: 5vh;
+      min-height: 5vh;
+      height: auto;
       border: none;
       color: white;
       font-size: 20px;
@@ -108,7 +110,8 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 15vh;
+    min-height: 15vh;
+    height: auto;
   }
   .logoHeader {
     display: flex;
