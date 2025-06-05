@@ -39,7 +39,8 @@
 .topico1{
     background-image: url(../../assets/fundo.png);
     width: 15vw; 
-    height: 34vh; 
+    min-height: 34vh; 
+    height: auto;
     background: rgba(1, 87, 148, 0.3); 
     border-radius: 10px;
     display: flex;
@@ -57,7 +58,8 @@
 .topico2{
     background-image: url(../../assets/fundo.png);
     width: 15vw; 
-    height: 34vh; 
+    min-height: 34vh;
+    height: auto; 
     background: rgba(1, 87, 148, 0.3); 
     border-radius: 10px;
     display: flex;
@@ -75,7 +77,8 @@
 .topico3{
     background-image: url(../../assets/fundo.png);
     width: 15vw; 
-    height: 34vh; 
+    min-height: 34vh; 
+    height: auto;
     background: rgba(1, 87, 148, 0.3); 
     border-radius: 10px;
     display: flex;
@@ -93,7 +96,8 @@
 .topico4{
     background-image: url(../../assets/fundo.png);
     width: 15vw; 
-    height: 34vh; 
+    min-height: 34vh;
+    height: auto; 
     background: rgba(1, 87, 148, 0.3); 
     border-radius: 10px;
     display: flex;
@@ -118,7 +122,8 @@
     .topico1{
         background-image: url(../../assets/fundo.png);
         width: 20vw; 
-        height: 37vh; 
+        min-height: 37vh;
+        height: auto; 
         background: rgba(1, 87, 148, 0.3); 
         border-radius: 10px;
         display: flex;
@@ -136,7 +141,8 @@
     .topico2{
         background-image: url(../../assets/fundo.png);
         width: 20vw; 
-        height: 37vh; 
+        min-height: 37vh;
+        height: auto; 
         background: rgba(1, 87, 148, 0.3); 
         border-radius: 10px;
         display: flex;
@@ -154,7 +160,8 @@
     .topico3{
         background-image: url(../../assets/fundo.png);
         width: 20vw; 
-        height: 37vh; 
+        min-height: 37vh; 
+        height: auto;
         background: rgba(1, 87, 148, 0.3); 
         border-radius: 10px;
         display: flex;
@@ -172,7 +179,8 @@
     .topico4{
         background-image: url(../../assets/fundo.png);
         width: 20vw; 
-        height: 37vh; 
+        min-height: 37vh; 
+        height: auto;
         background: rgba(1, 87, 148, 0.3); 
         border-radius: 10px;
         display: flex;
@@ -234,7 +242,8 @@
     .topico1{
         background-image: url(../../assets/fundo.png);
         width: 60vw; 
-        height: 30vh;
+        min-height: 30vh;
+        height: auto;
         margin-top: 15vh;
         background: rgba(1, 87, 148, 0.3); 
         border-radius: 10px;
@@ -253,7 +262,8 @@
     .topico2{
         background-image: url(../../assets/fundo.png);
         width: 60vw; 
-        height: 30vh;
+        min-height: 30vh;
+        height: auto;
         background: rgba(1, 87, 148, 0.3); 
         border-radius: 10px;
         display: flex;
@@ -271,7 +281,8 @@
     .topico3{
         background-image: url(../../assets/fundo.png);
         width: 60vw; 
-        height: 30vh; 
+        min-height: 30vh; 
+        height: auto;
         background: rgba(1, 87, 148, 0.3); 
         border-radius: 10px;
         display: flex;
@@ -289,7 +300,8 @@
     .topico4{
         background-image: url(../../assets/fundo.png);
         width: 60vw; 
-        height: 30vh; 
+        min-height: 30vh; 
+        height: auto;
         margin-bottom: 15vh;
         background: rgba(1, 87, 148, 0.3); 
         border-radius: 10px;
