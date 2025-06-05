@@ -1,20 +1,29 @@
 .section1{
-    height: 70vh;
+    min-height: 70vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 2rem; // espaço extra se necessário
+    h2{
+        margin-bottom: 2vh;
+    }
 }
 
 .section2{
    width: 85vw;
-   height: 60vh;
+   min-height: 60vh;
+   height: auto;
    display: flex;
-   justify-content: space-evenly;
+   flex-wrap: wrap; // permite quebrar linha
+   justify-content: center;
+   gap: 1rem; // espaço entre os cards
    article{
     border: solid 2px #005695;
-    width: 15vw;
-    height: 32vh;
+    width: 200px; // largura fixa e responsiva
+    min-height: 35vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,22 +49,34 @@
         
     }
     .section2{
-        
+        justify-content: center;
         article{
-            width: 200px;
-            height: 230px;
+            width: 180px;
+            height: 220px;
         }
     }
+}
+
+@media (max-width: 768px) {
+  .section1 {
+    height: auto;
+    padding-bottom: 3rem;
+  }
 }
 
 @media(max-width: 520px){
     .section1{
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 20px;
         height: auto;
     }
     .section2{
         height: auto;
         padding-bottom: 20px;
+        justify-content: center;
+        article {
+        width: 100%; // usa toda a largura da tela
+        max-width: 320px;
+        }       
     }
 }
