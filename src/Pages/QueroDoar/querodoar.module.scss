@@ -2,8 +2,10 @@
    display: flex;
    align-items: center;
    flex-direction: column;
-   height: 90vh;
+   min-height: 90vh;
+   height: auto;
    width: 100vw;
+   padding-bottom: 2rem; // espaço extra se necessário
 }
 .section1{
     p{
